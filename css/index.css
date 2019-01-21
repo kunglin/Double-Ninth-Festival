@@ -1,0 +1,37 @@
+img {
+    border: 0;
+}
+
+.position {
+    position: relative;
+}
+
+.couplet-left {
+    position: absolute;
+    top: 45px;
+}
+
+.couplet-right {
+    position: absolute;
+    top: 45px;
+    right: 0;
+}
+.time{
+    position: absolute;
+    right: 90px;
+    top: 450px;
+    color: #8aae92;
+}
+.presentation {
+    line-height: 26px;
+    position: absolute;
+    top: 250px;
+    left: 170px;
+    width: 200px;
+}
+
+.main {
+    z-index: 0;
+    width: 600px;
+    margin: 0 auto;
+}
